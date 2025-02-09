@@ -74,7 +74,7 @@ export const DATA = {
       Resume: {
         name: "View Resume",
         url: "https://drive.google.com/file/d/1Y3z_yWA2xTIvAN7iEtnK-jkTWQfJRhq_/view?usp=sharing",
-        icon: Icons.googleDrive,
+        icon: Icons.resume,
 
         navbar: true,
       },
@@ -270,7 +270,7 @@ export const DATA = {
       description:
         "Won First Place for developing a statistical analysis and hypothesis testing to uncover insights into the factors influencing employee turnover.",
       image:
-        "/TCCD.jpeg",
+        "/TCCD.jpg",
       links: [
         {
           title: "Github",
@@ -285,7 +285,7 @@ export const DATA = {
         {
           title: "Report",
           href: "https://github.com/Elkhiat15/Probability-Project/blob/main/Probability_Report.pdf",
-          icon: <Icons.googleDrive className="size-3" />,
+          icon: <Icons.report className="size-3" />,
         },
       ],
     },
