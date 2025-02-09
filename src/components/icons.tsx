@@ -23,6 +23,19 @@ export const Icons = {
       />
     </svg>
   ),
+  resume: (props: IconProps) => (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" {...props}>
+      <title>CV</title>
+      <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+      <path d="M14 2v6h6M12 18h-2M16 18h-2M12 14h-2M16 14h-2M12 10h-2"/>
+    </svg>
+  ),
+  report: (props: IconProps) => (
+    <svg viewBox="0 0 24 24" fill="currentColor" {...props}>
+      <title>Statistics</title>
+      <path d="M3 3v18h18V3H3zm2 2h14v16H5V5zm2 8h2v4H7v-4zm4-6h2v10h-2V7zm4 3h2v7h-2v-7z"/>
+    </svg>
+  ),
   youtube: (props: IconProps) => (
     <svg
       width="32px"
