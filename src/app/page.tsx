@@ -33,7 +33,7 @@ export default function Page() {
                 <Link href={DATA.resumeLink} passHref>
                   <button className="flex items-center px-4 py-2 text-white bg-blue-500 rounded hover:bg-blue-600">
                     
-                    View My Resume
+                    My Resume
                   </button>
                 </Link>
               </div>
