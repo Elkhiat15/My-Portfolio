@@ -270,7 +270,7 @@ export const DATA = {
       description:
         "Won First Place for developing a statistical analysis and hypothesis testing to uncover insights into the factors influencing employee turnover.",
       image:
-        "/TCCD.jpg",
+        "/TCCD.jpeg",
       links: [
         {
           title: "Github",
