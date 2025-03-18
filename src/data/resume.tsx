@@ -141,7 +141,7 @@ export const DATA = {
       // dates: "June 2023 - Present",
       active: true,
       description:
-        "Utilized **K-means clustering** to group similar sections and reduce dimensionality, enabling efficient summarization system, capable of processing documents with **1000+ pages in less than 60s** & Implemented a cumulative approach to reduce the time required for summarizing added documents & Leveraged **Gemini’s multi-modal capability to build a **multi-modal RAG** that enables users to chat with PDFs.",
+        "Utilized **K-means clustering** to group similar sections and reduce dimensionality, enabling efficient summarization system, capable of processing documents with **1000+ pages in less than 60s** & Implemented a cumulative approach to reduce the time required for summarizing added documents & Leveraged **Gemini’s multi-modal capability** to build a **multi-modal RAG** that enables users to chat with PDFs.",
       technologies: [
         "Python",
         "Langchain",
