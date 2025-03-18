@@ -52,7 +52,7 @@ export const DATA = {
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/mohammed-elkhiat-66b36521a",
+        url: "https://www.linkedin.com/in/mohamed-elkhayat-66b36521a",
         icon: Icons.linkedin,
 
         navbar: true,
@@ -279,7 +279,7 @@ export const DATA = {
         },
         {
           title: "Post",
-          href: "https://www.linkedin.com/posts/mohammed-elkhiat-66b36521a_datascience-dataanalytics-employeeattrition-activity-7147983201641152512-0vMQ?utm_source=share&utm_medium=member_desktop",
+          href: "https://www.linkedin.com/posts/mohamed-elkhayat-66b36521a_datascience-dataanalytics-employeeattrition-activity-7147983201641152512-092r?utm_source=share&utm_medium=member_desktop&rcm=ACoAADc5z3MBA4BLyE229T5ekNZ-JwDSLrrEDXk",
           icon: <Icons.linkedin className="size-3" />,
         },
         {
