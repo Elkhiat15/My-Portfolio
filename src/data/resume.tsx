@@ -100,11 +100,11 @@ export const DATA = {
     {
       logoUrl: "/miccai.jpeg", 
       altText: "MICCAI MSB EMERGE",
-      // href: "",
+      href: "",
       projectTitle: "Foundation Models as Class-Incremental Learners for Dermatological Image Classification",
       institution: "Under Review, MICCAI MSB EMERGE",
       period: "July 2025",
-      // keywords: ["CL", "Dermatology", "MLP", "Foundation Models"],
+      keywords: [""],
       description: `
         Proposed an exemplar-free, zero-forgetting continual learning framework using frozen foundation models with lightweight MLPs 
         or zero-training nearest-mean classifiers for dermatology, and achieved state-of-the-art accuracy, 
