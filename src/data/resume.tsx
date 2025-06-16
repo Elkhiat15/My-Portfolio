@@ -2,7 +2,7 @@ import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
-  name: "Mohammed Elkhayat",
+  name: "Mohamed Elkhayat",
   initials: "My Pic",
   url: "https://Elkhayat.io",
   location: "Cairo, EG",
@@ -95,6 +95,22 @@ export const DATA = {
       description:
         "I’ve completed eight end-to-end, applied data science projects. In each project, I accessed data from various sources, including files, SQL and NoSQL databases, and APIs. I’ve developed functions and built ETL pipelines to prepare training sets. I’ve also built machine learning models for both supervised and unsupervised learning tasks, and created visualizations to explain data characteristics and model predictions in a way that’s easy for non-technical audiences to understand.",    
   },
+  ],
+  research: [
+    {
+      logoUrl: "/miccai.jpeg", 
+      altText: "MICCAI MSB EMERGE",
+      // href: "",
+      projectTitle: "Foundation Models as Class-Incremental Learners for Dermatological Image Classification",
+      institution: "Under Review, MICCAI MSB EMERGE",
+      period: "July 2025",
+      // keywords: ["CL", "Dermatology", "MLP", "Foundation Models"],
+      description: `
+        Proposed an exemplar-free, zero-forgetting continual learning framework using frozen foundation models with lightweight MLPs 
+        or zero-training nearest-mean classifiers for dermatology, and achieved state-of-the-art accuracy, 
+        outperforming all regularization, replay, and architecture-based approaches by 20-40% and exceeding the upper bound by 8%.      
+        `,
+    },
   ],
   education: [
     {

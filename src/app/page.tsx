@@ -3,6 +3,7 @@ import BlurFade from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
 import { ProjectCard } from "@/components/project-card";
 import { ResumeCard } from "@/components/resume-card";
+import { ResearchCard } from "@/components/research-card"; 
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { DATA } from "@/data/resume";
@@ -91,6 +92,27 @@ export default function Page() {
           ))}
         </div>
       </section>
+      <section id="research">
+      <div className="flex min-h-0 flex-col gap-y-3">
+        <BlurFade delay={BLUR_FADE_DELAY * 5}>
+          <h2 className="text-xl font-bold">Research Experience</h2>
+        </BlurFade>
+        {DATA.research.map((project, id) => (
+          <BlurFade key={project.projectTitle} delay={BLUR_FADE_DELAY * 6 + id * 0.05}>
+            <ResearchCard
+              logoUrl={project.logoUrl}
+              altText={project.altText}
+              projectTitle={project.projectTitle}
+              institution={project.institution}
+              href={project.href}
+              keywords={project.keywords}
+              period={project.period}
+              description={project.description}
+            />
+          </BlurFade>
+        ))}
+      </div>
+    </section>
       <section id="education">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 7}>
