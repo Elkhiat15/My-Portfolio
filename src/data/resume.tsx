@@ -5,12 +5,12 @@ export const DATA = {
   name: "Mohamed Elkhayat",
   initials: "My Pic",
   url: "https://Elkhayat.io",
-  location: "Cairo, EG",
-  resumeLink: "https://drive.google.com/file/d/1Y3z_yWA2xTIvAN7iEtnK-jkTWQfJRhq_/view?usp=sharing",
+  location: "Cairo, Egypt",
+  resumeLink: "https://drive.google.com/file/d/1bYAUv6HaQzvJxREH6HgQEdB-FIUNkjel/view?usp=drive_link",
   description:
     "Aspiring AI Researcher",
   summary:
-    "I am a **Computer Engineering student** at Cairo University, with a strong passion for **Natural Language Processing (NLP)** and machine learning. I am eager to collaborate on various **AI research projects**, as I believe that teamwork and diverse perspectives are essential for driving innovation in this rapidly evolving field. My academic journey has been enriched by **hands-on experience** in projects focusing on **AI applications in NLP and data science**. I thrive on developing innovative solutions that utilize advanced technologies to address real-world challenges, and I am particularly interested in creating **user-friendly tools** that enhance interaction with data and improve **decision-making processes**.",
+    "I am a Computer Engineering student at Cairo University with a strong interest in AI research and applied machine learning. My work spans **Natural Language Processing, Computer Vision, and Multi-Agent Systems**, combining both research contributions—including a **first-author oral paper at MICCAI Workshop 2025** —and industry experience as an **AI research intern at Siemens EDA**. I enjoy working in collaborative environments, developing innovative and user-friendly AI solutions, and applying advanced methods to tackle real-world challenges at the intersection of research and practice.",
   avatarUrl: "/me.jpg",
   skills: [
     "Python",
@@ -73,7 +73,7 @@ export const DATA = {
       },
       Resume: {
         name: "View Resume",
-        url: "https://drive.google.com/file/d/1Y3z_yWA2xTIvAN7iEtnK-jkTWQfJRhq_/view?usp=sharing",
+        url: "https://drive.google.com/file/d/1bYAUv6HaQzvJxREH6HgQEdB-FIUNkjel/view?usp=drive_link",
         icon: Icons.resume,
 
         navbar: true,
@@ -84,17 +84,29 @@ export const DATA = {
 
   work: [
     {
-      company: "WorldQuant University",
-      href: "https://www.credly.com/badges/ae14c49f-6db1-451c-9260-f3c607ed5413",
+      company: "Siemens EDA",
+      href: "https://www.sw.siemens.com/en-US/",
       badges: [],
-      location: "Virtual",
-      title: "Applied Data Science Trainee",
-      logoUrl: "/wqu.jpeg",
-      start: "Mar 2023",
-      end: "Aug 2023",
+      location: "Cairo, Egypt",
+      title: "AI Research Intern",
+      logoUrl: "/Siemens-Logo.wine.png",
+      start: "Jul 2025",
+      end: "Present",
       description:
-        "I’ve completed eight end-to-end, applied data science projects. In each project, I accessed data from various sources, including files, SQL and NoSQL databases, and APIs. I’ve developed functions and built ETL pipelines to prepare training sets. I’ve also built machine learning models for both supervised and unsupervised learning tasks, and created visualizations to explain data characteristics and model predictions in a way that’s easy for non-technical audiences to understand.",    
+        "Improved and re-designed an AI-powered automated software testing platform for multi-language bug detection,fixing, and test generation. Incorporated a multi-agent system to enhance the platform’s ability and reliability in applying software testing.",  
   },
+  {
+    company: "WorldQuant University",
+    href: "https://www.credly.com/badges/ae14c49f-6db1-451c-9260-f3c607ed5413",
+    badges: [],
+    location: "Virtual",
+    title: "Applied Data Science Trainee",
+    logoUrl: "/wqu.jpeg",
+    start: "Mar 2023",
+    end: "Aug 2023",
+    description:
+      "I’ve completed eight end-to-end, applied data science projects. In each project, I accessed data from various sources, including files, SQL and NoSQL databases, and APIs. I’ve developed functions and built ETL pipelines to prepare training sets. I’ve also built machine learning models for both supervised and unsupervised learning tasks, and created visualizations to explain data characteristics and model predictions in a way that’s easy for non-technical audiences to understand.",    
+},
   ],
   research: [
     {
@@ -102,7 +114,7 @@ export const DATA = {
       altText: "MICCAI MSB EMERGE",
       href: "",
       projectTitle: "Foundation Models as Class-Incremental Learners for Dermatological Image Classification",
-      institution: "Under Review, MICCAI MSB EMERGE",
+      institution: "First author, MICCAI MSB EMERGE 2025 (Oral)",
       period: "July 2025",
       keywords: [""],
       description: `
