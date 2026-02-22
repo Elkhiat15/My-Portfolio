@@ -112,7 +112,7 @@ export const DATA = {
     {
       logoUrl: "/miccai.jpeg", 
       altText: "MICCAI MSB EMERGE",
-      href: "",
+      href: "https://openreview.net/forum?id=FyvpNwaMHk",
       projectTitle: "Foundation Models as Class-Incremental Learners for Dermatological Image Classification",
       institution: "First author, MICCAI MSB EMERGE 2025 (Oral)",
       period: "July 2025",
@@ -121,6 +121,18 @@ export const DATA = {
         Proposed an exemplar-free, zero-forgetting continual learning framework using frozen foundation models with lightweight MLPs 
         or zero-training nearest-mean classifiers for dermatology, and achieved state-of-the-art accuracy, 
         outperforming all regularization, replay, and architecture-based approaches by 20-40% and exceeding the upper bound by 8%.      
+        `,
+    }, 
+    {
+      logoUrl: "/MIDL_logo.png", 
+      altText: "Medical Imaging with Deep Learning (MIDL 2026)",
+      href: "https://openreview.net/forum?id=AGjbmEtbaR",
+      projectTitle: "On the Feasibility of Fréchet Radiomic Distance–Constrained Adversarial Examples in Medical Imaging: Methods and Trade-offs",
+      institution: "Medical Imaging with Deep Learning (MIDL 2026)",
+      period: "February 2026",
+      keywords: [""],
+      description: `
+        Analyzed adversarial vulnerability in medical imaging under Fr´echet Radiomic Distance constraints, showing that preserving radiomic fidelity fundamentally limits adversarial success, and implemented a gradient-free MOPSO framework in the DCT domain to explore the trade-off between radiomic realism and attack strength.     
         `,
     },
   ],
